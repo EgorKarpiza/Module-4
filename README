@@ -1,0 +1,3 @@
+Чтобы запустить базу данных MySQL в Docker, выполните команду в командной строке: docker run --name mysql -e MYSQL_ROOT_PASSWORD=qwerty -d -p 3306:3306 mysql: последняя версия
+
+Чтобы запустить базу данных Redis в Docker, выполните команду в командной строке: docker run -d --name redis -p 6379:6379 redis: последняя версия
